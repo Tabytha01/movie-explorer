@@ -19,6 +19,7 @@ const Favorites = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6">My Favorites</h1>
+      <button className='bg-gray-900 text-white '><a href='Home.jsx'>Back Home</a></button>
 
       {favorites.length === 0 ? (
         <div className="text-center py-10">
